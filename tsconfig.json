@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es5",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [
+          "dom",
+          "es2015"
+        ],
+        "sourceMap": true,
+        "declaration": true
+    },
+    "files": [
+        "cn-pdf-service.ts"
+        // ,
+        // "macs.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "cn-pdf-service",
+  "version": "1.0.0",
+  "description": "Helper functions and template component for macs.js pdf handling",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "macs.js",
+    "PDF"
+  ],
+  "author": "David Leonard",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "4.0.0",
+    "@angular/compiler": "4.0.0",
+    "@angular/compiler-cli": "4.0.0",
+    "@angular/core": "4.0.0",
+    "@angular/http": "4.0.0",
+    "@angular/platform-browser": "4.0.0",
+    "rxjs": "5.1.1",
+    "sw-toolbox": "3.4.0",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "1.3.0",
+    "typescript": "^2.2.2"
+  },
+  "typings": "./ng2-translate.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repo"
+  }
+}
